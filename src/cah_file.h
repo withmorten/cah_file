@@ -96,7 +96,7 @@ struct cah_file
 
 	wchar_t *name; // Name
 
-	int32_t class_index; // thanks c++, see class enum, ClassIndex
+	int32_t class_index; // see class enum, ClassIndex
 	int32_t sub_class_index; // see sub_class enums, SubClassIndex
 	int32_t reserved1; // probably just padding or for further sub typing stuff, Dummy
 	int32_t reserved2; // Dummy
